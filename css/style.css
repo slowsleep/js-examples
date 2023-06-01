@@ -1,0 +1,38 @@
+.container {
+    width: 780px;
+    margin: 0 auto;
+}
+
+.container>ul>li {
+    padding: 10px;
+    margin: 0px 5px;
+    background-color: 	#CED7EB;
+    border: 1px solid grey;
+    list-style-type: none;
+}
+
+.container>ul>li:hover {
+    background-color: 	#E0CCEA;
+}
+
+button {
+    border: none;
+    padding: 20px 15px;
+    border-radius: 10px;
+    background-color: #E768AD;
+}
+
+button:active {
+    background-color: #ba377f;
+}
+
+.back {
+    background-color: #886ED7;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+}
+
+.back:active {
+    background-color: #3E248C;
+}
+
