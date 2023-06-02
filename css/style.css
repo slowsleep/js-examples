@@ -22,7 +22,7 @@ button {
     background-color: #E768AD;
 }
 
-button:active {
+button:active, button:hover {
     background-color: #ba377f;
 }
 
@@ -32,7 +32,7 @@ button:active {
     margin-bottom: 20px;
 }
 
-.back:active {
+.back:active, .back:hover {
     background-color: #3E248C;
 }
 
