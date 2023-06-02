@@ -21,8 +21,7 @@ button {
     border-radius: 10px;
     background-color: #E768AD;
 }
-
-button:active, button:hover {
+button:hover {
     background-color: #ba377f;
 }
 
@@ -32,7 +31,7 @@ button:active, button:hover {
     margin-bottom: 20px;
 }
 
-.back:active, .back:hover {
+.back:hover {
     background-color: #3E248C;
 }
 
