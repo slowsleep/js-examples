@@ -15,6 +15,16 @@
     background-color: 	#E0CCEA;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 5em;
+}
+
+.text-center {
+    text-align: center;
+}
+
 button {
     border: none;
     padding: 20px 15px;
@@ -34,4 +44,3 @@ button:hover {
 .back:hover {
     background-color: #3E248C;
 }
-
