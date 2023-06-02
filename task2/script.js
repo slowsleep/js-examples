@@ -1,5 +1,5 @@
 document.querySelector('#consoleLog').addEventListener('click', () => {
-    alert('Выводит переданные данные в консоль.');
+    alert('Выводит переданные данные в веб-консоль.');
 });
 
 document.querySelector("#alert").addEventListener("click", () => {
