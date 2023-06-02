@@ -1,3 +1,4 @@
+// single traffic light
 const singleLight = document.querySelector('.singleLight');
 
 function makeGreen() {
@@ -20,6 +21,7 @@ function makeRed() {
 
 singleLight.addEventListener('click', makeGreen);
 
+// full traffic light
 const trafficLightEl = document.querySelector('.trafficLight');
 let countClickLight = 0;
 
@@ -48,5 +50,4 @@ trafficLightEl.addEventListener('click', () => {
             countClickLight = 0;
             break;
     }
-
 });
